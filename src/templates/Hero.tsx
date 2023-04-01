@@ -8,17 +8,17 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-slate-800">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://github.com/crypto-for-noobs">
-            <a>GitHub</a>
+            <a className="text-white">GitHub</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <a className="text-white">Sign in</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,7 +28,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern guide on Crrptocurrency for everyone\n'}
+            {'The modern guide on Crptocurrency for everyone\n'}
             <span className="text-primary-500">Crypto4noobs</span>
           </>
         }
@@ -36,7 +36,7 @@ const Hero = () => (
         button={
           <Link href="/">
             <a>
-              <Button xl>Under Construction</Button>
+              <Button xl>Comming Soon!</Button>
             </a>
           </Link>
         }
